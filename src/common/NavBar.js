@@ -4,7 +4,7 @@ import { Col, Row } from "reactstrap";
 import search from "../assets/images/Vector.svg";
 import arrow from "../assets/images/VectorArraw.svg";
 
-const Home = () => {
+const NavBar = () => {
   return (
     <section>
       <div className="home-img">
@@ -73,9 +73,7 @@ const Home = () => {
 
                 <div className="home-cart">
                   <img src={bag} alt=""></img>
-                  <span className="badge rounded-circle text-light">
-                    0
-                  </span>
+                  <span className="badge rounded-circle text-light">0</span>
                 </div>
               </div>
             </nav>
@@ -160,4 +158,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default NavBar;

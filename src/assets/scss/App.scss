@@ -141,22 +141,11 @@
       align-items: center;
       background: #e58411;
       border-radius: 50%;
-      // vertical-align: middle;
       width: 40px;
       height: 100%;
-      // padding: 11px;
-      // gap: 10px;
-
-      img {
-        //  padding: 8px;
-      }
     }
   }
 }
-
-// .searchbar-home::placeholder{
-//   color: white !important;
-// }
 
 .search-icon {
   height: 14.25px;
@@ -191,7 +180,6 @@
 .about-left-texts {
   display: flex;
   align-items: center;
-  //  justify-content: center;
 }
 
 .about-arrow {
@@ -552,7 +540,6 @@
   line-height: 33px;
   color: $black;
   opacity: 0.8;
-  // padding-right: 160px;
   padding-bottom: 24px;
 }
 
@@ -693,10 +680,6 @@
   color: $black;
 }
 
-.footer-left {
-  // padding-right: 140px !important;
-}
-
 .follow-us {
   padding-right: 11px !important;
 }
@@ -709,7 +692,6 @@
 .footer-services {
   color: $orange;
   padding-bottom: 20px;
-  // padding-left: 110px;
 
   li {
     font-family: "DM Sans", sans-serif;
@@ -732,7 +714,6 @@
     line-height: 24px;
     color: $black;
     opacity: 0.8;
-    // padding-left: 110px;
   }
 }
 
@@ -815,25 +796,6 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .home-cart {
-    display: none;
-  }
-
-  .footer {
-    padding-left: 52px;
-    padding-right: 27px;
-  }
-}
-
-@media only screen and (max-width: 525px) {
-  .footer-service {
-    padding-top: 20px !important;
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 @media only screen and (max-width: 425px) {
   .home-cart {
     display: none;
@@ -851,17 +813,11 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .home-cart {
-    display: none;
-  }
-
-  .home-main-text {
-    font-size: 30px !important;
-  }
-
-  .home-sub-text {
-    font-size: 15px !important;
+@media only screen and (max-width: 525px) {
+  .footer-service {
+    padding-top: 20px !important;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -910,6 +866,31 @@
 
   .footer-service {
     padding-top: 52px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-cart {
+    display: none;
+  }
+
+  .home-main-text {
+    font-size: 30px !important;
+  }
+
+  .home-sub-text {
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-cart {
+    display: none;
+  }
+
+  .footer {
+    padding-left: 52px;
+    padding-right: 27px;
   }
 }
 

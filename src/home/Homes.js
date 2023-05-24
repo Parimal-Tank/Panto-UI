@@ -5,7 +5,7 @@ import { Experiences } from "../pages/Experiences";
 import { Testimonials } from "../pages/Testimonials";
 import { Footer } from "../common/Footer";
 
-const home = () => {
+const Homes = () => {
   return (
     <div>
       <NavBar />
@@ -17,4 +17,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Homes;

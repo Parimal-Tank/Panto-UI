@@ -1,6 +1,7 @@
 import "../src/assets/scss/App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "../src/common/NavBar";
+// eslint-disable-next-line no-use-before-define
+import Home from "./home/Homes";
 
 function App() {
   return (
